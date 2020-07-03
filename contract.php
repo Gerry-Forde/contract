@@ -16,6 +16,8 @@ If you got this file from GitHub, the default developer signature just says "Joh
 You can generate a new signature @ http://cdpn.io/JYpjvE and replace the data above.
 
 4. The $CLIENT_SIGNATURE is received by this script from itself when Client signs the contract.
+
+5. Test
 */
 $CLIENT_SIGNATURE = isset($_POST['client_signature']) ? $_POST['client_signature'] : null;
 if (substr( $CLIENT_SIGNATURE, 0, 22 ) === 'data:image/png;base64,') {
